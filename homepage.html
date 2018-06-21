@@ -1,0 +1,470 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="emojionearea-master/dist/emojionearea.css" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+    
+    <link href="FaceMocion/faceMocion.css" rel="stylesheet">
+
+    
+
+ 
+</head>
+<body>
+      <!--navbar-->
+      <nav class="navbar fixed-top navbar-expand navbar-dark bd-navbar" id="pat">
+            <a class="navbar-brand" href="#">logo</a>
+
+          <!--serachbox-->
+            <form class="form-inline searchbox">
+                <input type="text" class="form-control" placeholder="Search" id="search01">
+            </form>
+
+          <!--navbar items-->
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav">
+              <!--profile image-->
+                    <a href="#">
+                        <li class="nav-item">
+                             <img src="http://zblogged.com/wp-content/uploads/2016/02/1-3.jpg" height="40px" width="40px" alt="pic" class="img-circle">
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">UserName</a>
+                        </li></a>
+                    <li class="nav-item active">
+                        <a href="#" class="nav-link">HOME <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="#" class="nav-link">POST</a>
+                    </li>
+
+                    <!--find friends-->
+                     <li class="nav-item dropdown id="notify-drop">
+                        <a class="nav-link"  href="#" id="navbarDropdown" role="button" data-toggle="dropdown"  aria-haspopup="true" aria-expanded="false"><i class="fas fa-user-friends"></i><span class="badge badge-light">9</span>
+                                    <span class="sr-only">unread message</span></a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown" id="notify">
+                            <ul class="nav">
+                                    <li class="nav-item">Friend Request</li>
+                                    <li class="nav-item"><a href="" id="notify-a1">Find Friends</a></li>
+                                    <li class="nav-item"><a href="" id="notify-a2">Settings</a></li>
+                            </ul> 
+                            
+                            <ul class="list-group" id="notify-content">
+                                <ul class="nav">
+                                    <li class="nav-item" >
+                                        <li class="list-group-item">
+                                        <img src="http://zblogged.com/wp-content/uploads/2016/02/1-3.jpg" height="40px" width="40px" alt="pic" class="img-circle">
+                                        <a href="">Username</a>
+                                        <button class="btn btn-outline-primary" style="margin-left: 4.93rem;">confirm</button>
+                                        <button class="btn btn-outline-primary">Delete</button>
+                                        </li>
+                                
+                                    </li>
+                                <ul class="nav">
+                                    <li class="nav-item" >
+                                        <li class="list-group-item">
+                                        <img src="http://zblogged.com/wp-content/uploads/2016/02/1-3.jpg" height="40px" width="40px" alt="pic" class="img-circle">
+                                        <a href="">Username</a>
+                                        <button class="btn btn-outline-primary" style="margin-left: 4.93rem;">confirm</button>
+                                        <button class="btn btn-outline-primary">Delete</button>
+                                        </li>
+                                
+                                    </li>
+                                </ul>
+                                <a href="" class="list-group-item list-group-item-action" id="notify-a3"><center>See All</center></a>
+                            </ul>
+                        </ul>
+                        </div> 
+                    </li>
+                    
+                    <!--messagae-->
+                     <li class="nav-item dropdown id="notify-drop">
+                        <a class="nav-link"  href="#" id="navbarDropdown" role="button" data-toggle="dropdown"  aria-haspopup="true" aria-expanded="false"><i class="fab fa-facebook-messenger"></i><span class="badge badge-light">9</span>
+                                    <span class="sr-only">unread message</span></a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown" id="notify">
+                            <ul class="nav">
+                                    <li class="nav-item">Message</li>
+                                    <li class="nav-item"><a href="" id="notify-a1">New Group</a></li>
+                                    <li class="nav-item"><a href="" id="notify-a2">New Message</a></li>
+                            </ul> 
+                            
+                            <ul class="list-group" id="notify-content">
+                                    <a class="list-group-item list-group-item-action">
+                                    <img src="http://zblogged.com/wp-content/uploads/2016/02/1-3.jpg" height="40px" width="40px" alt="pic" class="img-circle">username<br><span>new message</span>
+                                    </a>
+                                    <a class="list-group-item list-group-item-action">
+                                    <img src="http://zblogged.com/wp-content/uploads/2016/02/1-3.jpg" height="40px" width="40px" alt="pic" class="img-circle">username<br><span>new message</span>
+                                    </a><a class="list-group-item list-group-item-action">
+                                    <img src="http://zblogged.com/wp-content/uploads/2016/02/1-3.jpg" height="40px" width="40px" alt="pic" class="img-circle">username<br><span>new message</span>
+                                    </a>
+                                    <a href="" class="list-group-item list-group-item-action" id="notify-a3"><center>See All</center></a>
+                            </ul>
+                        </div> 
+                    </li>
+                    <!--notification-->
+                    <li class="nav-item dropdown id="notify-drop">
+                        <a class="nav-link"  href="#" id="navbarDropdown" role="button" data-toggle="dropdown"  aria-haspopup="true" aria-expanded="false"><i class="far fa-bell"></i><span class="badge badge-light">9</span>
+                                    <span class="sr-only">unread notification</span></a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown" id="notify">
+                            <ul class="nav">
+                                    <li class="nav-item">Notifications</li>
+                                    <li class="nav-item"><a href="" id="notify-a1">mark all as read</a></li>
+                                    <li class="nav-item"><a href="" id="notify-a2">Settings</a></li>
+                            </ul> 
+                            
+                            <ul class="list-group" id="notify-content">
+                                    <a class="list-group-item list-group-item-action">
+                                    <img src="http://zblogged.com/wp-content/uploads/2016/02/1-3.jpg" height="40px" width="40px" alt="pic" class="img-circle">this is the first comment..
+                                    </a>
+                                    <a class="list-group-item list-group-item-action">
+                                    <img src="http://zblogged.com/wp-content/uploads/2016/02/1-3.jpg" height="40px" width="40px" alt="pic" class="img-circle">this is the first comment..
+                                    </a>
+                                    <a class="list-group-item list-group-item-action">
+                                    <img src="http://zblogged.com/wp-content/uploads/2016/02/1-3.jpg" height="40px" width="40px" alt="pic" class="img-circle">this is the first comment..
+                                    </a>
+                                    <a href="" class="list-group-item list-group-item-action" id="notify-a3"><center>See All</center></a>
+                            </ul>
+                        </div> 
+                    </li>
+                    <li class="nav-item ">
+                        <a href="#" class="nav-link">?</a>
+                    </li>
+                <!--dropdown menu-->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <a class="dropdown-item" href="#">PRIVACY</a>
+                              <a class="dropdown-item" href="#">SETTINGS</a>
+                              <div class="dropdown-divider"></div>
+                              <a class="dropdown-item" href="#">LOGOUT</a>
+                          </div>
+                        
+                    </li>  
+                </ul>
+            </div>
+      </nav>
+
+      <div class="container-fluid contain">
+            <div class="row">
+                <div class="col-sm-1"></div>
+                <div class="col-sm-2" id="column2">
+                    <div class="list-group">
+                            <a href="#" class="list-group-item list-group-item-action">link1</a>
+                            <a href="#" class="list-group-item list-group-item-action">link2</a>
+                            <a href="#" class="list-group-item list-group-item-action">link3</a>
+                            <a href="#" class="list-group-item list-group-item-action">link4</a>
+                            <a href="#" class="list-group-item list-group-item-action ">link5</a>
+                            <a href="#" class="list-group-item list-group-item-action">link1</a>
+                            <a href="#" class="list-group-item list-group-item-action">link2</a>
+                            <a href="#" class="list-group-item list-group-item-action">link3</a>
+                            <a href="#" class="list-group-item list-group-item-action">link4</a>
+                            <a href="#" class="list-group-item list-group-item-action ">link5</a>
+                    </div>
+                </div>
+
+              <!--middle row of home page or home page-->
+                <div class="col-sm-5">
+                        <div class="card" >
+                            <br>
+                            <div>
+                                <div class="card-header">
+                                    <ul class="nav ">
+                                    <li class="nav-item"><a class="nav-link active inline-items" href="#" data-target="#status" data-toggle="modal" aria-expended="true"><i class="fas fa-edit"></i><span>Status</span></a>
+                                    </li>
+                                    <li class="nav-item"><a class="nav-link inline-items" href="#" data-target="#upload" data-toggle="modal"aria-expended="true"><i class="fas fa-camera-retro"></i>upload</a></li>
+                                  </ul>
+                                </div>
+                                <div class="card-body" id="column3-body">
+                                    <div>
+                                    <img src="http://zblogged.com/wp-content/uploads/2016/02/1-3.jpg" height="30px" width="30px" alt="pic" class="img-circle" id="column3-img" >
+                                    <textarea  id="column3-textarea" placeholder="share what you think.."></textarea>
+                                    </div>
+                                </div>
+                                <div class="card-footer" id="column3-footer">
+                                    <a href="" id="column3-footer-a1"><i class="fas fa-camera">    </i></a>
+                                    <a href="" id="column3-footer-a2"><i class="fas fa-tags"> </i>     </a>
+                                    <a href="" id="column3-footer-a3"><i class="fas fa-map-marker-alt"> </i></a>
+                                    <button type="button" class="btn btn-outline-primary" id="column3-footer-button">cancel</button>
+                                    <button type="button" class="btn btn-outline-primary" >Post</button>
+                                </div>
+                                
+                            </div>
+                     <!-- Modal status-->
+                        <div class="modal fade" id="status" tabindex="-1" role="dialog" aria-labelledby="status" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="statustitle">
+                                <ul class="nav">
+                                    <li class="nav-item">
+                                      <a class="nav-link active" href="#">Status</a>
+                                    </li>
+                                    <li class="nav-item">
+                                      <a class="nav-link" href="#">Upload</a>
+                                    </li>
+                                  </ul>
+                              </h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-body">
+                            <form>
+                              <div class="form-group">
+                                <textarea id="stat" class="form-control" placeholder="say something.." rows="3"></textarea>
+                              </div>
+                            </form>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-outline-primary">Post</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- Modal upload-->
+                      <div class="modal fade" id="upload" tabindex="-1" role="dialog" aria-labelledby="uploadtitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="uploadtitle">
+                                <ul class="nav nav-tabs">
+                                    <li class="nav-item">
+                                      <a class="nav-link "  href="#">Status</a>
+                                    </li>
+                                    <li class="nav-item">
+                                      <a class="nav-link active"  href="#">Upload</a>
+                                    </li>
+                                  </ul>
+                              </h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-body">
+                            <div class="input-group ">
+                                <form>
+                                    <div class="form-group">
+                                    <textarea id="upld" class="form-control" placeholder="say something.." rows="3"></textarea>
+                                    </div>
+                                </form>
+                            </div>
+                                  <div class="custom-file">
+                                    <input type="file" class="custom-file-input" id="upload-status-file">
+                                    <label class="custom-file-label" for="upload-status-file">Choose file</label>
+                                  </div>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-outline-primary">Post</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <br>
+                </div>
+              
+                <br>
+                <div class="card">
+                    <div class="card-body" id="column3-post">
+                      <div class="card-items">
+                        <div class="row">
+                            <div class="col-md-10">
+                                <ul class="nav">
+                                <li class="nav-item">
+                                <img src="http://zblogged.com/wp-content/uploads/2016/02/1-3.jpg" height="40px" width="40px" alt="pic" class="img-circle"><a href="#" id="h3">Username</a>
+                                </li>
+                                 </ul>
+                            </div>
+                            <div class="col-md-2">
+                                <ul class="nav">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-ellipsis-h"></i></a>
+                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                              <a class="dropdown-item" href="#"><i class="fas fa-ban"></i> Make It  Inactive</a>
+                              <div class="dropdown-divider"></div>
+                              <a class="dropdown-item" href="#"><i class="fas fa-trash"></i> Delete</a>
+                            </div>
+                        
+                        </li></ul>
+                            </div>
+                        </div>
+                        
+                        
+                      </div>
+
+                      <!--post image-->
+                      <div class="card-items" id="column3-post-image" >
+                        <img class="card-img" src="http://zblogged.com/wp-content/uploads/2016/02/1-3.jpg" width="100px" height="400px" alt="image">
+                      </div>
+
+                      <!--like comment share-->
+                      <hr id="column3-post-line">
+
+                        <ul class="nav feed">
+                          <li class="nav-item" id="like">
+                            
+                          <a class="nav-link "  href=""  id="like01"><i class="fas fa-thumbs-up"></i> Like</a>             
+                          </li>
+                          <li class="nav-item" id="comment">
+                          <a class="nav-link " href="#"><i class="far fa-comment-alt"></i> Comment</a>
+                          </li>
+                          <li class="nav-item" id="share">
+                          <a class="nav-link " href="#"><i class="fas fa-share"></i> Share</a>
+                          </li>
+                        </ul> 
+                        <hr id="column3-post-line">
+                        <a href="" style="margin-left: 60px;color:grey; ">9 Likes</a>
+                        <hr id="column3-post-line">
+                        <div class="card" id="column3-post-cmmntbox">
+                            <div class="card-body">
+                                <div class="card-items">
+                                    <div class="row">
+                                        <div class="col-md-1">
+                                            <img src="http://zblogged.com/wp-content/uploads/2016/02/1-3.jpg" height="40px" width="40px" alt="pic" class="img-circle" />
+                                        </div>
+                                        <div class="col-md-10" style="margin-left: 6px">
+                                            <div class="input-group ">
+                                                    <form>
+                                                    <div class="form-group">
+                                                    <input type="text" id="cmmt" class="form-control" placeholder="add a commnet">
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>                                
+                                    </div>
+                                    <hr>
+                                    <div class="card-items">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <img src="http://zblogged.com/wp-content/uploads/2016/02/1-3.jpg" height="40px" width="40px" alt="pic" class="img-circle" />
+                                            <a href="">username</a>
+                                        </div>
+                                        <div class="col-md-12" style="margin-left: 6px">
+                                            <div class="input-group ">
+                                                    <form>
+                                                    <div class="form-group">
+                                                    <textarea href=""></textarea>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>   
+                                    
+                                        <div class="col-md-2" style="font-size: 14px">
+                                            <a href="">Like</a>
+                                            <br>
+                                            <span class="badge badge-light">9 Likes</span>
+                                    <span class="sr-only">unread like</span>
+                                        </div>
+                                        <div class="col-md-2" style="font-size: 14px">
+                                            <a href="">Reply</a>
+                                        </div>
+                                        <div class="col-md-4"></div>
+                                        <div class="col-md-2" style="font-size: 14px">
+                                            <a href="">Edit</a>
+                                        </div>
+                                        <div class="col-md-2" style="font-size: 14px">
+                                            <a href="">Delete</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                </div> 
+            </div>
+              
+            
+          
+              <!--third coloum of home page-->
+              <div class="col-sm-3">
+                <!--complete your profile banner-->
+                <div class="card" id="column4-card">
+                    <div class="card-body">
+                      <h4 class="card-title">complete your profile</h4>
+                      <a href="#">Edit Profile</a>
+                      <div class="progress">
+                      <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+                    </div>
+                    <br>
+                </div>
+                </div>
+                <br>
+                <!--news feeds-->
+                
+                <div class="card" id="column4-card">
+                <img class="card-img-top" src="http://zblogged.com/wp-content/uploads/2016/02/1-3.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+
+              <div class="card" id="column4-card">
+                <img class="card-img-top" src="http://zblogged.com/wp-content/uploads/2016/02/1-3.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+              </div>
+              <div class="col-sm-1"></div>
+            
+          </div>
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+    <!--cdn for font awesome-->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+    <!--jqyery for emojies-->
+    <script src="emojionearea-master/dist/emojionearea.min.js"></script>
+    <script>
+      
+     
+      $('#stat').emojioneArea({
+          pickerPosition:"right"
+        })
+      $('#upld').emojioneArea({
+          pickerPosition:"right"
+        })
+      $('#think').emojioneArea({
+          pickerPosition:"left"
+        })
+    </script>
+
+
+   
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,164 @@
+       body{
+          background-color: #e6ecf0;
+          font-family: "Helvetica ";
+        }
+      .navbar{
+        position: absolute;
+        left:0rem;
+        right:0rem;
+        padding: 10px;
+        color:white;
+        
+      }
+      .bd-navbar {
+        background-color: #2672ae;
+        border-color: #2672ae;
+
+      }
+      .searchbox{
+        position: absolute;
+        left:10rem;
+
+      }
+      .collapse{
+        position: absolute;
+        left:45rem;
+      }
+      .img-circle{
+        border-radius: 50%;
+      }
+      
+      .contain{
+        position: absolute;
+        top:4rem;
+        left: 0rem;
+        right: 0rem;
+      }
+      #cmmt{
+        border-radius: 8px;
+         width: 400px;
+      }
+      .list-group{
+        text-align: center;
+        padding: 0px;
+      }
+    
+     .feed{
+        text-align: center;
+        margin-left: 10px;
+        padding: 0px
+      }
+     #like:hover,#comment:hover,#share:hover{
+        background-color: #fafafa;
+     }
+     .comment{
+      width: 300px;
+
+     }
+     .emojionearea-editor{
+        width: auto;
+        min-width:28rem;
+        max-width: 28rem;
+    }
+    .inline-items{
+        display: inline-block;
+        vertical-align: middle;
+    }
+    #search01{
+      width:25rem;
+    }
+    #column2{
+      padding: 0px;
+      border-collapse: collapse;
+    }
+
+    #column3-body{
+      height: 200px;
+    }
+
+    #column3-img{
+      vertical-align: top;
+      border-style: none;
+    }
+    #column3-textarea{
+    width:93%;
+    height:150px;
+    border-style: none;
+    }
+
+    #column3-footer{
+      padding: 10px;
+      margin: 4px
+    }
+
+    #column3-footer-a1{
+      margin-left:10px;font-size:1.25rem;
+    }
+
+    #column3-footer-a2{
+      margin-left:25px;font-size:1.25rem;
+    }
+
+    #column3-footer-a3{
+      margin-left:30px;font-size:1.25rem;
+    }
+    #column3-footer-button{
+      margin-left: 210px;
+    }
+
+    #upld{
+      width: 80%;
+    }
+
+    #upload-status-file{
+      width: 60%;
+    }
+
+    #column3-post-image{
+    padding: 10px;
+    }
+    #column3-post-line{
+    padding: 0px;margin-left: 12px ;margin-right: 12px;
+    }
+
+    #like , #comment{
+      width: 32.5%;
+    }
+
+    #share{
+      width: 33%;
+    }
+
+    #column3-post-cmmntbox{
+      width: 100%;padding: 0px;margin: 0px
+    }
+
+    
+
+    #column4-card{
+    width:18rem;
+    }
+  
+    #notify{
+      width: 25rem;
+      height: 25rem;
+    }
+    #notify-a1{
+      margin-left: 100px;
+      font-size: 12px;
+    }
+    #notify-a2{
+      margin-left: 50px;
+      font-size: 12px;
+    }
+    #notify-a3{
+      position: absolute;
+      bottom: 0px;
+    }
+    #notify-content{
+      background-color: #fafafa;
+      margin-top: 0px;
+      text-align: left;
+    }
+    
+    
